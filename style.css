@@ -22,6 +22,7 @@
 
 body {
     min-height: 100vh;
+    min-width: 300px;
     font-family: 'WorkSans', sans-serif;
     background-color: hsl(275, 100%, 97%);
 }
@@ -33,9 +34,14 @@ body {
     background-size: cover;
 }
 
+.faq-container {
+    display: flex;
+    justify-content: center;
+}
+
 .faq {
     max-width: 520px;
-    margin-inline: auto;
+    margin-inline: 20px;
     background-color: white;
     padding: 30px;
     padding-bottom: 0px;
